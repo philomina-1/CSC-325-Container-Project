@@ -1,28 +1,32 @@
 ## Source Code Version Control Tools
-This document discusses aspects and characteristics of the Version Control utilized for the Flutter application development. source code and related files.
+This document discusses the aspects and characteristics of the Version Control that is used for the Flutter application development source code and related files found in this repository.
 
 ### Introduction
-In software development, version control, also known as source control, is a component of software configuration management. Version control tools are systems that are in charge of managing changes to things like computer programs, documents, large websites, and source code. 
+In software development, version control, also known as source control, is a component of software configuration management. Version control tools are systems that are in charge of managing changes to things such as  computer programs, documents, large websites, and source code. 
 
-In this project, version control plays a large role in maintaining the integrity, history, and collaboration aspects of the project. As team members collaborate on the project and share pieces of code, version control allows for the software team to manage changes, easily track updates, and be up to date with the contributions of different members. This can ensure that team members can work together smoothly and limit complications that may arise.
+In this project, version control plays a large role in maintaining the integrity, history, and collaboration aspects of the project. As team members collaborate on the project and share pieces of code, version control allows for them to manage changes, easily track updates, and be up to date with the contributions of different members. This can ensure that team members can work on the project together smoothly and limit complications that may arise.
 
 ### Version Control System Used
 
-For this project, the chosen version control system is Git. I am using Git because it is extremely efficient. The following are features of Git:
-- feature 1
-- feature 2
-- feature 3
-- feature 4
+For this project, the chosen version control system is Git, which is a DevOps tool that is used for source code management. Git is the chosen VCS due to its to ability ensure easy collaboration and provide distributed development. The following are features of Git that make it a desirable resource for this project:
+- Every developer has an entire copy of the code on their local system
+- All changes to the source code can be tracked by others
+- Git provides regular communication between the developers
 
-For more information on Git, you can visit their website: 
+For more information on Git and its features, you can visit this website: https://www.simplilearn.com/tutorials/git-tutorial/what-is-git
 
-Additionally, I am using Github because of 
+Along with Git, I am using Github to maintain the source code for the project. GitHub is a Git repository hosting service that provides a web-based graphical interface. The following are features of Git that make it a desirable resource for this project:
+1. Easy Project Management
+2. Increased Safety With Packages
+3. Effective Team Management
+4. Improved Code Writing
+5. Increased Code Safety
 
-For more information on GitHub, see this website: 
+For more information on GitHub, view this website: https://www.simplilearn.com/tutorials/git-tutorial/what-is-github
   
 ### Repository Setup
 #### Structure
-My repository is divided into four main sub-directories within my main directory. The design of my repository follows Flutter's best practices closely so that the navigation of the project is easy and efficient.
+My repository is divided into four main sub-directories within my main directory. The design of my repository follows Flutter's best practices closely so that the navigation of the project is easy.
 
 #### Outline
 The following is a summary of my repository directories and the purpose that they serve:
@@ -37,12 +41,11 @@ The following is a summary of my repository directories and the purpose that the
 
 
 #### Integration
-The repository in GitHub is integrated with our DevContainer and CI/CD pipeline. This means that every push triggers automated tests and builds which ensures  continuous integration and delivery. 
-
-This setup supports our agile development practices and enhances code quality.
+The repository in GitHub is integrated with the DevContainer as well as the CI/CD pipeline. Due to this integration, all pushes result in automated tests and builds which ensures continuous integration and delivery. This integration supports our agile development practices and enhances code quality.
 
 #### Standards and Conventions
-To ensure that changes to our project are easy to track, follow, and understand, some conventions have been adopted. 
+To ensure that changes to our project are easy to track, follow, and understand, the following conventions have been used. 
+
 - When updating or making a change to a file, a short but clear note of what update was made is expected in the commit message.
 - Related files are grouped together in repository folders, all of which have understandable names that are straightforward and accurately describe what feature they pertain to.
 - Titles of documentation files clearly state what section of the documentation that file refers to.
