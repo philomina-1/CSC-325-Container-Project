@@ -69,10 +69,10 @@ The following include some of the common Git commands that are needed for our pr
 ### :radio_button: Collaboration Features
 GitHub provides numerous opportunities for easy collaboration amongst team members. Through the following actions, team members can discuss changes to code, deliberate solutions, distribute workloads, and so much more:
 
-- Pull Requests: Team members can use a pull request to tell others about the changes they want to make and ask for their feedback. Once a pull request is opened, members can discuss and review the potential changes and add more changes if needed. 
-- Code Review: On GitHub, members of the team can request other team members to review their code and provide feedback or extend their approval.
-- Forking: Forking a repository allows a team member to copy an entire project and freely experiment with changes without affecting the original project.
-- Branching: Members can use branches on GitHub to isolate work that they do not want merged into the final project just yet. Branches allow users to develop features, fix bugs, or safely experiment with new ideas in a contained area of their repository.
+- *Pull Requests* - Team members can use a pull request to tell others about the changes they want to make and ask for their feedback. Once a pull request is opened, members can discuss and review the potential changes and add more changes if needed. 
+- *Code Review* - On GitHub, members of the team can request other team members to review their code and provide feedback or extend their approval.
+- *Forking* - Forking a repository allows a team member to copy an entire project and freely experiment with changes without affecting the original project.
+- *Branching* - Members can use branches on GitHub to isolate work that they do not want merged into the final project just yet. Branches allow users to develop features, fix bugs, or safely experiment with new ideas in a contained area of their repository.
 
 Descriptions on the features above along with other available ones can be found in the README file found in this repositiory: https://github.com/CSC-480-F2023/csc-480-philomina-1
 
