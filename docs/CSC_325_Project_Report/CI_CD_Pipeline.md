@@ -8,9 +8,52 @@ Tools that are included in the pipeline could include compiling code, unit tests
 Tools that are usually included in a CI/CD pipeline could include compiling code, unit tests, code analysis, security, and binaries creation.
 For this CI/CD pipeline, the tyools were included in the setup:
 
-1. Build Stage
-2. Test Stage
-3. Deploy Stage
+Include detailed description of the setup.
 
 ### Utilized cloud services and local environments
 The following cloud services and local environments were utilized by this CI/CD Pipeline.
+
+# :diamond_shape_with_a_dot_inside: Section V: CI/CD Tools
+### GitHub Actions
+For this project, we utilized GitHub Actions to automate the build, test, and deployment processes of the Flutter application. GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows developers to automate their  build, test, and deployment pipeline. 
+
+GitHub Actions was utilized to take advantage of the many benefits it provides, including the following:
+- Integrates seamlessly with other GitHub features, such as pull requests and issues.
+- GitHUb Actions makes it extremely easy to manage entire workflows in one place.
+- Can be used to create workflows that automatically build and test every pull request to your repository, or deploy merged pull requests to production.
+
+For more information on the purpose and significance of GitHub Actions, please visit this website: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions.
+You can also view their documentation here: https://docs.github.com/en/actions.
+
+### Relation to Project: Workflows
+A GitHub workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered manually, or at a defined schedule.
+
+Within this project, GitHub Actions was used to create workflow files that contained the necessary actions to accomplish the following:
+1. Cloning the student's source code repository.
+2. Dependency Verification.
+3. Test Execution:
+4. Run any available Flutter testspresent in the repository.
+5. Report the test results.
+6. Build the Flutter Application.
+7. Ensure that the build process completes successfully.
+
+
+These workflow files are stored in the `.\github\workflows` folder in the project repository. They include the following:
+- `build.yml` - include detailed description here.
+- `deploy.yml` - include detailed description here.
+
+
+# :diamond_shape_with_a_dot_inside: Section VI: Deployment Environment
+### GitHub Pages
+For the deploy portion of our project, a reliable, real environment was needed to deploy to and host the flutter web application. GitHub Pages was chosen as the application's deployment environment. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+
+GitHub Pages provides many benefits, like the following:
+- Publishes any static file that is pushed to the repository.
+- Supports thw creation of  static files build a site.
+- Supports the customization of the build process locally or on another server.
+  
+
+### Configuration
+Insert detailed description of the configuration of the deployment environment.
+
+For more information on the purpose and significance of GitHub Pages, please visit this website: https://docs.github.com/en/enterprise-server@3.9/pages/getting-started-with-github-pages/about-github-pages
