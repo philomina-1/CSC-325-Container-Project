@@ -1,6 +1,6 @@
 # CSC 325 CI/CD Pipeline Project
 ### Author: Philomina Ekezie
-Hello! Welcome to my repository for our CI/CD Pipeline Project. In this class, we are focusing on building a CI/CD Pipeline.
+Hello! Welcome to my repository for my CSC 325 CI/CD Pipeline Project. In this class, we are focusing on building a CI/CD Pipeline to build a Flutter Web Application.
 
 ### CSC 325: Application Development & Deployment
 Here is a brief excerpt from the course syllabus that describes the nature of the class:

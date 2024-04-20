@@ -1,1 +1,38 @@
+// Development container configuration file.
+{
+	"name": "Ubuntu",
+	
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/jarrodcolburn/features/flutter-sdk:0": {}
+	},
 
+	"customizations": {
+		"vscode": {
+		  "extensions": [
+			"ms-azuretools.vscode-docker",
+			"dart-code.flutter",
+			"dart-code.dart-code",
+			"flutterando.flutter-coverage"
+		  ]
+		}
+	},
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// 'postCreateCommand' is used to run commands after the container is created.
+	"postCreateCommand": {
+		"pub-cache own": "sudo chown -R vscode /flutter/.pub-cache/",
+		"bin own": "sudo chown -R vscode /flutter/bin/cache/flutter_version_check.stamp"
+	}
+
+	// Here, configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment this to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
