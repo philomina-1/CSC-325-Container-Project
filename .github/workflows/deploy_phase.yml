@@ -1,16 +1,27 @@
-DEPLOY FILE
-
-name: Flutter We App Deploy Phase
+name: Flutter App Deploy Workflow
 
 on:
-  workflow_call:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
 
 jobs:
-  deploy:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./app
     steps:
-      run: pwd
-      - name: Web Deploy
-        working-directory: ./.github/workflow
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+      - name: Build Flutter Web
+        run: flutter build web
+      - name: Web Deploy - GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
